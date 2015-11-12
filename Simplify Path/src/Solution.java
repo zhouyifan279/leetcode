@@ -16,7 +16,8 @@ public class Solution {
 			}
 
 			if (str.equals("..")) {
-				if(!stack.isEmpty()) stack.pop();
+				if (!stack.isEmpty())
+					stack.pop();
 			} else {
 				if (!str.equals("") && !str.equals("."))
 					stack.push(str);
